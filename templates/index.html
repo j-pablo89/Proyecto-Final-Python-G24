@@ -1,0 +1,121 @@
+{% include 'defaults/navbar.html' %}
+    <main>
+        <div>
+            <div class="section0">
+                <div class="fondoGradiente">
+                    <div class="primerContenedorMain centradoTexto">
+                        <div class="resplandorImagen">
+                            <img src="{{url_for('static', filename='img/portadageneralPS2.png')}}" alt="plan1" style="width: 100%;">
+                        </div>
+                        <div class="espaciosLaterales">
+                            <p class="textoPrincipal">Con más de 25 años de trayectoria, Veterinaria Patotas es la clínica veterinaria más grande del pais. Trabajamos constantemente para brindar un servicio de excelencia en todas nuestras sucursales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="container-fluid mt-3">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                         <img src="{{url_for('static', filename='img/carrusel1.jpg')}}" class="d-block w-100 filtroImagen" alt="...">
+                         <div class="carousel-caption ">
+                            <h5 class="textoTituloCarrusel">EQUIPO MEDICO</h5>
+                            <p class="textoParrafoCarrusel">Contamos con equipo medico de ultima generación para una excelente atención a tu mascota</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                         <img src="{{url_for('static', filename='img/carrusel2.jpg')}}" class="d-block w-100 filtroImagen" alt="...">
+                         <div class="carousel-caption ">
+                            <h5 class="textoTituloCarrusel">PELUQUERIA</h5>
+                            <p class="textoParrafoCarrusel">En nuestro centro de atención hemos instalado un sector de peluqueria para tu amigo peludito</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                          <img src="{{url_for('static', filename='img/carrusel3.png')}}" class="d-block w-100 filtroImagen" alt="...">
+                          <div class="carousel-caption ">
+                            <h5 class="textoTituloCarrusel">SALA DE ESPERA</h5>
+                            <p class="textoParrafoCarrusel">Nuestra sala de espera cuenta con la mejor comodidad</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="{{url_for('static', filename='img/imagen1.jpg')}}" class="d-block w-100 filtroImagen" alt="...">
+                            <div class="carousel-caption ">
+                              <h5 class="textoTituloCarrusel">ATENCION PERSONALIZADA</h5>
+                              <p class="textoParrafoCarrusel">Realizamos una atención personalizada con nuestros médicos veterinarios fuertemente preparados para poder llevar a cabo un diagnóstico correcto</p>
+                            </div>
+                          </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <section class="section2">
+                <h2 class="centradoTextoTitulo">Nuestra Tienda Virtual</h2>
+                <div class="segundoContenedorMain">
+                    <div class="centradoTexto">
+                        <img src="{{url_for('static', filename='img/producto1.jpg')}}"  style="width: 250px; height: 300px;" alt="producto1" >
+                        <h6>Alimento PURINA EXCELLENT DOG Adulto grande x 3KG</h6>
+                        <h5>$14500</h5>
+                        <button class="btn btn-primary">Agregar al carrito</button>
+                    </div>
+                    <div class="centradoTexto">
+                        <img src="{{url_for('static', filename='img/producto2.png')}}"  style="width: 250px; height: 300px;" alt="producto2" >
+                        <h6>Alimento OLD PRINCE NIVEL para perros adulto x 10KG</h6>
+                        <h5>$53000</h5>
+                        <button class="btn btn-primary">Agregar al carrito</button>
+                    </div>
+                    <div class="centradoTexto">
+                        <img src="{{url_for('static', filename='img/producto3.jpg')}}"  style="width: 250px; height: 300px;" alt="producto3">
+                        <h6>Alimento Premium INFINITY para Gato Adulto x 10KG</h6>
+                        <h5>$37450</h5>
+                        <button class="btn btn-primary">Agregar al carrito</button>
+                    </div>
+                    <div class="centradoTexto">
+                        <img src="{{url_for('static', filename='img/producto4.jpeg')}}"  style="width: 180px; height: 300px;" alt="producto4">
+                        <h6>Alimento PRO PLAN URINARY para gatos x 7.5KG</h6>
+                        <h5>$76150</h5>
+                        <button class="btn btn-primary">Agregar al carrito</button>
+                    </div>
+                </div>
+            </section>
+            <section class="section3">
+                <div>
+                    <h2 class="centradoTextoTitulo2">Planes de Atención para tu mascota</h2>
+                    <div class="tercerContenedorMain">
+                        <div>
+                            <img src="{{url_for('static', filename='img/plan1.jpg')}}" alt="plan1" style="width: 100%;">
+                        </div>
+                        <div class="bg-black centradoTexto animaPlan">
+                            <h2 class="tituloPlan">Plan Black</h2>
+                            <p class="parrafoPlan">Para las mascotas que disfrutas de las aventuras, este plan se adapta a todas sus necesidades</p>
+                            <a href="/error404" class="btn btn-primary">Ver mas</a>
+                        </div>
+                        <div class="bg-black centradoTexto animaPlan">
+                            <h2 class="tituloPlan">Plan Flex</h2>
+                            <p class="parrafoPlan">Con este plan vos elegis donde cuidar a tu mascota, accediendo a beneficios exclusivos</p>
+                            <a href="/error404" class="btn btn-primary">Ver mas</a>
+                        </div>
+                        <div>
+                            <img src="{{url_for('static', filename='img/plan2.jpg')}}" alt="plan2" style="width: 100%;">
+                        </div>
+                        <div>
+                            <img src="{{url_for('static', filename='img/plan3.jpg')}}" alt="plan3" style="width: 100%;">
+                        </div>
+                        <div class="bg-black centradoTexto animaPlan">
+                            <h2 class="tituloPlan">Plan Select</h2>
+                            <p class="parrafoPlan">El plan ideal para aquellas personas que buscan un cuidado integral y completo para su amigo de cuatro patas</p>
+                            <a href="/error404" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </div> 
+    </main>
+{% include 'defaults/footer.html' %}
